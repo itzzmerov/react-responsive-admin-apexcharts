@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-        Subscribe Zainkeepscode
+        <div className='AppGlass'>
+          
+        </div>
     </div>
   );
 }
