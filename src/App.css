@@ -10,3 +10,7 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
   --activeItem: #f799a354;
 }
+
+.App {
+  font-family: 'Inter', sans-serif;
+}
