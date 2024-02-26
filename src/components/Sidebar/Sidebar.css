@@ -68,3 +68,51 @@
     bottom: 2.3rem;
     width: 100%;
 }
+
+.bars {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .menuItem>span {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Sidebar {
+        position: fixed;
+        z-index: 9;
+        background: #ffe0e0;
+        width: 55%;
+        padding-right: 1rem;
+        height: 100%;
+    }
+
+    .menuItem>span {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .menu .menuItem:last-child {
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .bars {
+        display: flex;
+        position: fixed;
+        top: 2rem;
+        z-index: 9;
+        background: #ffe0e0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
